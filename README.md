@@ -4,7 +4,7 @@ This is a small Java console tool that scans an authentication log file and look
 
 The goal is to practice basic log parsing, counting events per user and deriving a simple security signal from it.
 
----
+
 
 ## How it works
 
@@ -15,14 +15,4 @@ The goal is to practice basic log parsing, counting events per user and deriving
 - flags users whose failed logins exceed a given threshold (default: 5)
 - prints a short summary and a list of suspicious users
 
----
 
-## Project structure
-
-```text
-security-log-anomaly-detector/
- ├── logs/
- │   └── auth.log
- ├── src/
- │   └── SecurityLogAnomalyDetector.java
- └── README.md
